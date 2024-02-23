@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    color:white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+}
+
+.container{
+    background-color:hsl(216, 50%, 16%);
+    width: 20%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+.card_img img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.container_description {
+    padding: 0 10%;
+} 
+.container_description h3{
+    font-size: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.container_description p{
+    line-height: 20px;
+    color: hsl(215, 51%, 70%);
+}
+.price{
+ margin: 6% 0;
+ padding: 0;
+
+}
+.price span{
+    color: hsl(178, 100%, 50%);
+    margin-right: 10px;
+    padding-right: 30px;
+}
+
+
+.container_description img{
+    width: 25px;
+
+}
+.footer_container{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-top: 8%;
+    font-size: 13px;
+}
+.footer_container span{
+    color:hsl(215, 51%, 70%);
+    padding-left: 8px;
+}
+.footer_container p{
+    color: white;
+}
+hr{
+    color:hsl(215, 51%, 70%); 
+}
